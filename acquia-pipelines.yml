@@ -39,7 +39,7 @@ events:
             - cd $SOURCE_DIR
             # Wipe out codebase and rebuild as an artifact.
             - phing destroy
-            - composer require phing/phing:^2.14 --no-update
+            - composer require phing/phing:^2.14
             - composer install --no-dev --optimize-autoloader
             # Setup settings file and codebase with minimum required for cloud.
             - phing cloud-settings
