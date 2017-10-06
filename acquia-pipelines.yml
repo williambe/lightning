@@ -37,7 +37,8 @@ events:
           type: script
           script:
             - cd $SOURCE_DIR
-            # Remove drush so our version doesn't interfere with cloud commands.
-            - composer remove drush/drush --dev
+            # Wipe out codebase and rebuild as an artifact.
+            - phing destroy
+            - composer install --no-dev --optimize-autoloader
             # Setup settings file and codebase with minimum required for cloud.
             - phing cloud-settings
