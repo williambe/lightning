@@ -1,3 +1,15 @@
+## 2.2.4
+* Lightning Workflow has been updated to use core Workflows and Content
+  moderation modules and existing sites will be migrated. (Issue #2863059)
+* Added a new Scheduled Publications sub-component of Lightning Workflow which
+  replaces Scheduled Updates.
+* Fixed a bug where media names appeared in view modes where they had previously
+  been hidden after updating to core Media. (GH #521)
+* Crop API was updated to 2.x (GH #519)
+* Media Entity was updated to 2.x (Issue #2927823)
+* Dropzonejs was updated to 2.x (GH #528)
+
+
 ## 2.2.3
 * Updated to and require a minimum of Drupal Core 8.4.1.
 
