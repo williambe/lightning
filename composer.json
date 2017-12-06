@@ -166,7 +166,7 @@
         }
     },
     "require": {
-        "cweagans/composer-patches": "dev-issue-174 as 1.6.2",
+        "cweagans/composer-patches": "1.6.2",
         "drupal/core": "~8.4.1",
         "drupal/embed": "^1.0",
         "drupal/entity_embed": "1.0.0-beta2",
