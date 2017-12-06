@@ -1,5 +1,5 @@
 {
-    "name": "acquia/lightning",
+    "name": "williambe/lightning",
     "description": "The best of Drupal, curated by Acquia",
     "type": "drupal-profile",
     "license": "GPL-2.0+",
